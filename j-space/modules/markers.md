@@ -157,6 +157,16 @@ and that is the condition under which shortcuts start looking reasonable.
   contradiction away.
 - **Settle:** restate the surviving branch as the current position.
 
+### DISAGREEMENT — an external answer rejects yours
+
+- **Trigger:** a user, a key, or an external check says the deliverable is wrong, and
+  re-derivation inside the chosen reading confirms it.
+- **Move:** do not re-verify arithmetic first. Audit the weakest-spent clause — the one named
+  as flavor, the move never exhibited — and re-fork the five lines in
+  `../references/problem-model.md`. Compare the strategy spaces (fixed object vs chosen
+  strategy) before re-counting.
+- **Settle:** state the two readings and name the clause that licenses the difference.
+
 ### TEMPO — deliberation has become delay
 
 - **Trigger:** nothing new has entered the reasoning for several steps, and the remaining
@@ -208,6 +218,9 @@ stopped producing information is just slower.
 - **Checkpoint skipping.** Declaring a pass without writing the record. Remedy: no marker
   without its one-line numbered record.
 - **Contradiction averaging.** Blending two colliding claims into mush. Remedy: roll back.
+- **Re-deriving the wrong frame.** The external key says wrong; the arithmetic of the chosen
+  reading is re-verified until the key's structure surfaces. Remedy: DISAGREEMENT — the
+  weakest-spent clause is audited before any re-count.
 - **Surrender drift.** Replacing a marker with a summary of effort — "this is quite hard" —
   and coasting to an answer. Remedy: the licensed moves are shift, shift, or shift.
 
@@ -216,6 +229,7 @@ stopped producing information is just slower.
 | When | Go to | Carry |
 |---|---|---|
 | The empirics marker fired | `empirics.md` | The named open question |
+| An external answer rejects the deliverable | `../references/problem-model.md` | The clause named as flavor |
 | The meltdown marker fired | `self-monitoring.md` | Which red line, and where it started |
 | A checkpoint needs recording | `capacity.md` | The conclusion, verifier, coverage, and newly unblocked next action |
 | Markers keep firing without moves | `self-monitoring.md` | The count |
